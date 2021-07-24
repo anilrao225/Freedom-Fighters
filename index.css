@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image3 {
+    height: 300px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.video-container {
+    margin-top: 25px;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 16px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 17px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+body {
+    margin: 0px;
+}
+
+.gandhi-heading {
+    padding-top: 15px;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-container {
+    background-image: linear-gradient(orange, white, green);
+    background-size: cover;
+
+}
+
+.image2 {
+    width: 15%;
+    margin: auto;
+}
+
+.image1 {
+    width: 15%;
+    margin: auto;
+
+
+}
+
+.bottom-container {
+    background-color: black;
+    padding-top: 25px;
+}
+
+.card-container {
+    background-image: linear-gradient(orange, white, green);
+    padding: 14px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.back {
+    background: radial-gradient(orange, white, green);
+
+}
+
+.independence {
+    background-clip: text;
+    text-align: center;
+    font-size: 48px;
+    color: #170ec9;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #c13fe8;
+
+    font-style: italic;
+}
+
+.image {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.follow {
+    text-align: center;
+    color: #f0ebf2;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 38px;
+}
+
+.card1 {
+    padding: 70px;
+    margin: auto;
+
+
+
+}
+
+.gandhi-container {
+    background-image: radial-gradient(orange, white, green);
+    background-size: cover
+}
+
+.side-heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 550px;
+}

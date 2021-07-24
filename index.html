@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5834b53240.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container pt-3 pb-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="back col-12">
+                        <div class="d-flex flex-row">
+                            <img src="https://i.pinimg.com/originals/5b/f3/4a/5bf34a824eef83aeda0c912651a3acb0.jpg" class="image1 d-none d-md-block" />
+                            <div class="flag">
+                                <h1 class="main-heading">Indian Freedom Fighters</h1>
+                                <p class="independence">76th Independence Day</p>
+                            </div>
+                            <img src="https://i.pinimg.com/originals/5b/f3/4a/5bf34a824eef83aeda0c912651a3acb0.jpg" class="image2 d-none d-md-block" />
+                        </div>
+                    </div>
+                    <div class="col-12 video-container">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IPIcaPgSZsA?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionGandhiDetailed')">
+                            <div>
+                                <img src="https://www.culturalindia.net/iliimages/Mahatma%20Gandhi_1.jpg" class="image" />
+                                <p class="gandhi-heading">Mahatma Gandhi</p>
+                                <p class="heading">1869 - 1948</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionNehruDetailed')">
+                            <img src="https://res.cloudinary.com/dkplc2mbj/image/upload/v1612161327/jawahar_lal_nehru_843f597724.jpg" class="image" />
+                            <p class="gandhi-heading">Jaawaharlal Nehru</p>
+                            <p class="heading">1889 - 1964</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionChandraDetailed')">
+                            <img src="https://www.drishtiias.com/images/uploads/1577430554_image19.jpg" class="image" />
+                            <p class="gandhi-heading">Subhas Chandra Bose</p>
+                            <p class="heading">1897</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionPatelDetailed')">
+                            <img src="https://www.jagranimages.com/images/newimg/31102020/31_10_2020-sardar_vallabhbhai_pate_20988072.jpg" class="image" />
+                            <p class="gandhi-heading">Sardar Vallabhbhai Patel</p>
+                            <p class="heading">1875-1950</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionAlluriDetailed')">
+                            <img src="https://www.theoctobersky.com/wp-content/uploads/2019/07/images-2019-07-04T113539.423.jpeg" class="image" />
+                            <p class="gandhi-heading">Alluri Sitarama Raju</p>
+                            <p class="heading">1898-1924</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionTilakDetailed')">
+                            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/08/01/916723-tilak-1-1024x574.jpg" class="image" />
+                            <p class="gandhi-heading">Bal Gangadhar Tilak</p>
+                            <p class="heading">1856 - 1920 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionAmbedkarDetailed')">
+                            <img src="https://www.drbrambedkarcollege.ac.in/sites/default/files/1460456023_Dr_Bhim_Rao_Ambedkar.jpg" class="image" />
+                            <p class="gandhi-heading">B.R.Ambedkar</p>
+                            <p class="heading">1891 - 1956</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionBagathDetailed')">
+                            <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2017/09/bhagatsingh-1506598593.jpg" class="image" />
+                            <p class="gandhi-heading">Bhagat Singh</p>
+                            <p class="heading">1907- 1931</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionJhansiDetailed')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Rani_of_jhansi.jpg" class="image" />
+                            <p class="gandhi-heading">Jhansi Rani</p>
+                            <p class="heading">1828 - 1858</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionSarojiniDetailed')">
+                            <img src="https://images.herzindagi.info/image/2021/Feb/sarojini-naidu-m.jpg" class="image" />
+                            <p class="gandhi-heading">Sarojini Naidu</p>
+                            <p class="heading">1879 - 1949</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionBesantDetailed')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Annie_Besant_-_portrait.jpg/220px-Annie_Besant_-_portrait.jpg" class="image" />
+                            <p class="gandhi-heading">Annie Besant</p>
+                            <p class="heading">1847 - 1933</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-5">
+                        <div class="card-container shadow" onclick="display('sectionAliDetailed')">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/42/Aruna_Asaf_Ali.jpg" class="image" />
+                            <p class="gandhi-heading">Aruna Asaf Ali</p>
+                            <p class="heading">1909 - 1996 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container col-12">
+            <h1 class="follow">follow us</h1>
+            <div class="d-flex flex-row justify-content-center pt-4 pb-4">
+                <div class="follow-us-icon-container">
+                    <a href="https://www.instagram.com/anil_rao_pinninti_" target="-blank"><i class="fab fa-instagram icon"></i></a>
+                </div>
+                <div class="follow-us-icon-container">
+                    <a href="https://www.twitter.com/PinnintiAnilrao" target="-blank"><i class="fab fa-twitter icon"></i></a>
+                </div>
+                <div class="follow-us-icon-container">
+                    <a href="https://www.facebook.com/anilrao1706" target="-blank"><i class="fab fa-facebook icon"></i></a>
+                </div>
+                <div class="follow-us-icon-container">
+                    <a href="https://www.linkedin.com/in/anil-rao-pinninti-35ba891a5" target="-blank"><i class="fab fa-linkedin icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGandhiDetailed">
+        <div class="gandhi-container d-flex flex-column justify-content-center">
+            <div class="card1">
+                <div id="gandhiExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#gandhiExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#gandhiExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#gandhiExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://static.toiimg.com/photo/71402733.cms" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2019/9/29/w900X450/Gandhi_Wiki.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.india.com/wp-content/uploads/2020/06/Mahatma-Gandhi-Insta.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#gandhiExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#gandhiExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Mahatma Gandhi</h1>
+                <p class="para">Gandhi's birthday, 2 October, is commemorated in India as Gandhi Jayanti, a national holiday, and worldwide as the International Day of Nonviolence</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi " target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNehruDetailed">
+        <div class="gandhi-container d-flex flex-column justify-content-enter">
+            <div class="card1">
+                <div id="nehruExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#nehruExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#nehruExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#nehruExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://static.theprint.in/wp-content/uploads/2017/11/nehru-696x447.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://res.cloudinary.com/dkplc2mbj/image/upload/v1612161327/jawahar_lal_nehru_843f597724.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://mcmscache.epapr.in/post_images/website_350/post_19170345/full.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#nehruExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#nehruExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Jaawaharlal Nehru</h1>
+                <p class="para">Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian independence activist and, subsequently, the first Prime Minister of India. Considered as one of the greatest statesmen of moden India,He was a central figure in Indian politics both before and after independence.</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionChandraDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="chandraExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#chandraExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#chandraExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#chandraExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.drishtiias.com/images/uploads/1577430554_image19.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.britannica.com/37/171337-004-0B980E9D/Subhas-Chandra-Bose-Indian-National-Army.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.indianexpress.com/2019/01/netaji.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#chandraExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#chandraExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Netaji</h1>
+                <p class="para">Subhas Chandra Bose (23 January 1897 – 18 August 1945) was an Indian nationalist whose defiant patriotism made him a hero in India</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Subhas_Chandra_Bose" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPatelDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="patelExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#patelExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#patelExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#patelExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ytimg.com/vi/09VMDoEtlZE/maxresdefault.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://fl.thgim.com/the-nation/article25661853.ece/alternates/FREE_435/FL21STATUEPATEL" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/10/31/934688-871046-sardar-vallabhai.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#patelExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#patelExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Vallabhbhai Patel</h1>
+                <p class="para">Sardar Vallabhbhai Jhaverbhai Patel (31 October 1875 – 15 December 1950), popularly known as Sardar Patel, was an Indian statesman. He served as the first Deputy Prime Minister of India. He was an Indian barrister, and a senior leader of the Indian National Congress who played a leading role in the country's struggle for independence and guided its integration into a united, independent nation</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Vallabhbhai_Patel" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionTilakDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="tilakExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#tilakExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#tilakExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#tilakExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.skillpundit.com/img/freedom-fighters/tilak.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.skillpundit.com/img/freedom-fighters/tilak.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Bal_Gangadhar_Tilak_crop.jpg/220px-Bal_Gangadhar_Tilak_crop.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#tilakExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#tilakExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Bal Gangadhar Tilak</h1>
+                <p class="para">Bal Gangadhar Tilak (or Lokmanya Tilak), About this soundpronunciation (23 July 1856 – 1 August 1920), born as Keshav Gangadhar Tilak, was an Indian nationalist, teacher, and an independence activist. He was one third of the Lal Bal Pal triumvirate. Tilak was the first leader of the Indian independence movement.</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Bal_Gangadhar_Tilak" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionAlluriDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="alluriExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#alluriExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#alluriExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#alluriExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.skillpundit.com/img/freedom-fighters/skillpundit-allurisitarama-raju.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Alluri_Sita_Rama_Raju_statue.jpg/800px-Alluri_Sita_Rama_Raju_statue.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/te/0/08/Alluri_sitarama_raju_childhood.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#alluriExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#alluriExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Alluri Sitarama Raju</h1>
+                <p class="para">Alluri Sitarama Raju (4 July 1897 or 1898 – 7 May 1924) was an Indian revolutionary involved in the Indian independence movement. After the passing of the 1882 Madras Forest Act, its restrictions on the free movement of tribal people in the forest prevented them from engaging in their traditional podu agricultural system, which involved shifting cultivation. Alluri led the Rampa Rebellion of 1922.</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Alluri_Sitarama_Raju" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionAmbedkarDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="ambedkarExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#ambedkarExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#ambedkarExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#ambedkarExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.hindustantimes.com/img/2021/04/14/550x309/pjimage_(16)_1618389652260_1618389665242.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.thehansindia.com/h-upload/2021/04/12/1069850-ambedkar.webp" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.careerindia.com/img/2020/04/beeducatedbeorganisedandbeagitated-1586805442.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#ambedkarExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#ambedkarExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">B.R.Ambedkar</h1>
+                <p class="para">Bhimrao Ramji Ambedkar ( 14 April 1891 – 6 December 1956), also known as Babasaheb Ambedkar, was an Indian jurist, economist, politician and social reformer, who inspired the Dalit Buddhist movement and campaigned against social discrimination towards the untouchables</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionBagathDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="bhagathExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#bhagathExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#bhagathExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#bhagathExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/02/28/960935-bhagat-singh.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.oneindia.com/img/2015/09/07-1441622029-bhagat-singh-new.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.indianexpress.com/2020/09/feature-4.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#bhagathExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#bhagathExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Bhagat Singh</h1>
+                <p class="para">Bhagat Singh ( 1907 – 23 March 1931) was an Indian socialist revolutionary whose two acts of dramatic violence against the British in India and execution at age 23 made him a folk hero of the Indian independence movement.</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Bhagat_Singh" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionJhansiDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="raniExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#raniExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#raniExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#raniExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://realbharat.org/wp-content/uploads/2018/05/_d_improd_/Jhansi_Ki_Rani_f_improf_1187x623.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.india.com/wp-content/uploads/2017/11/jhansi-rani.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.india.com/wp-content/uploads/2020/06/Rani-Laxmibai.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#raniExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#raniExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Rani of Jhansih</h1>
+                <p class="para"> She was one of the leading figures of the Indian Rebellion of 1857 and became a symbol of resistance to the British Raj for Indian nationalists. She died in the Rebellion, wounded and killed in a battle on 18 June 1858. The Rebellion was suppressed by November that year</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Rani_of_Jhansi" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionSarojiniDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="naiduExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#naiduExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#naiduExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#naiduExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.herzindagi.info/image/2021/Feb/sarojini-naidu-m.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ndtvimg.com/i/2018-02/sarojini-naidu_650x400_51518533347.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.skillpundit.com/img/freedom-fighters/skillpundit-Sarojini-Naidu.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#naiduExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#naiduExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Sarojini Naidu</h1>
+                <p class="para"> Sarojini Naidu was born in a Bengali family in Hyderabad, Naidu was educated in Madras, London and Cambridge. Following her time in England, where she worked as a suffragist, she was drawn to Indian National Congress' movement for India's independence from British rule. She became a part of the Indian nationalist movement and became a follower of Mahatma Gandhi and his idea of swaraj</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Sarojini_Naidu" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionBesantDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="aniExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#aniExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#aniExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#aniExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.assignmentpoint.com/wp-content/uploads/2018/12/Biography-of-Annie-Besant.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/10/07/Photos/Processed/AnnieBesant-k8eE--621x414@LiveMint.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2015/10/01/Pictures/_b45a8620-6846-11e5-a67c-863da204c6d2.JPG" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#aniExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#aniExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Annie Besant</h1>
+                <p class="para"> Annie Besant (1 October 1847 – 20 September 1933) was a British socialist, theosophist, women's rights activist, writer, orator, educationist, and philanthropist. Regarded as a champion of human freedom, she was an ardent supporter of both Irish and Indian self-rule./p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Annie_Besant" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionAliDetailed">
+        <div class="gandhi-container">
+            <div class="card1">
+                <div id="arunaExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#arunaExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#arunaExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#arunaExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.janshakti.co.in/h-upload/2020/10/22/829341-aruna-asaf-ali-biography-in-hindi.webp" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://expertscolumn.com/image_files/thumbmain/imag_1871795413_688006752.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://timescontent.com/tss/photos/preview/127627/Aruna%20Asaf%20Ali.jpg" class="d-block w-100 image3" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#arunaExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#arunaExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <h1 class="side-heading">Aruna Asaf Ali</h1>
+                <p class="para">Aruna Asaf Ali (16 July 1909 - 29 July 1996) was an Indian educator, political activist, and publisher. An active participant in the Indian independence movement, she is widely remembered for hoisting the Indian National flag at the Gowalia Tank maidan, Bombay during a Quit India Movement in 1942</p>
+                <p class="paragraph">Full Details : <a href="https://en.wikipedia.org/wiki/Aruna_Asaf_Ali" target="_blank">Wikipedia</a></p>
+                <button class="button btn btn-primary" onclick='display("sectionHome")'>Back</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
